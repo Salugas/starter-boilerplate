@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.wrapper > a {
+  color: black;
+}
+
+.user {
+  display: flex;
+  column-gap: 15px;
+
+  padding: 20px;
+  border: 1px solid black;
+
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.4);
+
+  cursor: pointer;
+
+  transition: all 0.2s ease-in;
+}
+
+.user:hover {
+  transform: scale(1.01);
+  background-color: rgba(0, 0, 0, 0.13);
+  transition: all 0.2s ease-in;
+}

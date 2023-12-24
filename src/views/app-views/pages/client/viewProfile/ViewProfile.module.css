@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.col {
+  display: flex;
+  column-gap: 80px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input > input {
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.input > input:focus {
+  outline: none !important;
+  border: 1px solid rgb(0, 119, 255);
+}
+
+.button {
+  width: fit-content;
+  padding: 7px;
+
+  color: white;
+  background-color: rgb(0, 139, 253);
+
+  border-radius: 7px;
+  border: none;
+
+  cursor: pointer;
+
+  transition: transform 0.2s ease-in;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in;
+}
